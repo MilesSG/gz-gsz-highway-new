@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Row, Col, Card, Statistic, Table, Badge } from 'antd';
 import { CarOutlined, ClockCircleOutlined, WarningOutlined, LineChartOutlined } from '@ant-design/icons';
 import ReactECharts from 'echarts-for-react';
+import HighwayMap from '../components/map/HighwayMap';
 import {
   generateTrafficData,
   generateCongestionData,
@@ -169,6 +170,14 @@ const Dashboard: React.FC = () => {
               prefix={<ClockCircleOutlined />}
               suffix="分钟"
             />
+          </Card>
+        </Col>
+      </Row>
+
+      <Row gutter={[24, 24]} className="charts-container">
+        <Col xs={24}>
+          <Card title="实时路况地图">
+            <HighwayMap />
           </Card>
         </Col>
       </Row>
