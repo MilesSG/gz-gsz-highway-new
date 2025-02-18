@@ -1,0 +1,29 @@
+.speed-analysis {
+  padding: 24px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.charts-container {
+  margin-top: 24px;
+}
+
+.ant-card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03),
+              0 1px 6px -1px rgba(0, 0, 0, 0.02),
+              0 2px 4px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+}
+
+.ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 500;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #f5f5f5;
+} 

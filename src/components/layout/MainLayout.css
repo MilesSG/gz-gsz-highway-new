@@ -1,0 +1,12 @@
+.main-layout {
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 88px 24px 24px;
+  background: #f0f2f5;
+}
+
+.ant-layout {
+  background: #f0f2f5;
+} 
