@@ -35,19 +35,34 @@
 ## 技术栈 🛠️
 
 - **前端框架**
-  - React 18
-  - TypeScript
-  - React Router v6
+  - React 18.2.0
+  - TypeScript 4.9.5
+  - React Router v6.22.1
 
 - **UI 组件**
-  - Ant Design 5.x
-  - ECharts 5.x
-  - Leaflet (地图可视化)
+  - Ant Design 5.24.1
+  - ECharts 5.6.0
+  - Leaflet 1.9.4
+  - echarts-for-react 3.0.2
 
 - **开发工具**
-  - Create React App
-  - Node.js
-  - npm
+  - Create React App 5.0.1
+  - Node.js >= 14.0.0
+  - npm >= 6.14.0
+
+- **依赖管理**
+  - @types/react 18.2.55
+  - @types/react-dom 18.2.19
+  - @types/leaflet 1.9.16
+  - axios 1.7.9
+  - lodash 4.17.21
+
+## 环境要求 🔧
+
+- Node.js >= 14.0.0
+- npm >= 6.14.0
+- 现代浏览器（Chrome, Firefox, Safari, Edge 等）
+- 屏幕分辨率建议 >= 1920x1080
 
 ## 快速开始 🚀
 
@@ -134,6 +149,11 @@ MIT License
 - GitHub: [MilesSG](https://github.com/MilesSG)
 
 ## 更新日志 📝
+
+### v0.1.2 (2024-02-18)
+- 📝 更新技术栈版本信息
+- ⚙️ 添加环境要求说明
+- 🔍 完善项目依赖文档
 
 ### v0.1.1 (2024-02-18)
 - 🗺️ 新增 OpenStreetMap 地图功能
