@@ -2,6 +2,10 @@
 
 一个现代化的交通数据可视化平台，用于实时监控和分析广州-广深高速公路的交通状况。
 
+
+### 项目截屏
+![统运行截图](src/imgs/image1.png)
+
 ## 功能特点 ✨
 
 - 📊 实时交通数据展示
@@ -66,9 +70,9 @@
 
 ## 快速开始 🚀
 
-1. **克隆项目**
+1. **进入项目**
+   
    ```bash
-   git clone https://github.com/MilesSG/gz-gsz-highway-new.git
    cd gz-gsz-highway-new
    ```
 
@@ -133,20 +137,6 @@ src/
 - 拥堵预警提示
 - 路段实时状态标记
 - 交互式地图操作
-
-## 开发团队 👥
-
-- 前端开发：MilesSG
-- 数据分析：MilesSG
-- 系统设计：MilesSG
-
-## 许可证 📄
-
-MIT License
-
-## 联系方式 📧
-
-- GitHub: [MilesSG](https://github.com/MilesSG)
 
 ## 更新日志 📝
 
